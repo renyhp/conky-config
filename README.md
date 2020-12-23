@@ -29,7 +29,7 @@ In the hourly forecast, I use [erikflower's weather icons](https://github.com/er
 
 Make sure you set your location and API key in [climacell.py](https://github.com/renyhp/conky-config/blob/main/.conky/climacell/climacell.py#L83-L85).
 
-Obviously, unless you want this widget in italian, you'll have to translate a bit of strings :)
+Obviously, unless you want this widget in italian, you'll have to translate a bit of strings :) By the way, wind is shown in [Beaufort scale](https://en.wikipedia.org/wiki/Beaufort_scale) which for me is much more intuitive than any other unit.
 
 ### Clock
 
