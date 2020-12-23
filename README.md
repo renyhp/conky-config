@@ -15,11 +15,13 @@
 
 This was originally a copy of [mtking2's conky config](https://github.com/mtking2/conky-config), to which I made quite a bit of changes.
 
-I am running Ubuntu on a desktop PC and this is tailored for my personal use - some scripts may need a bit of adjustments for other OSes or configurations. I hope people can make use of it anyway.
+I am running Ubuntu on a desktop PC and this is tailored for my personal use - some scripts may need a bit of adjustments for other OSes or configurations. This repo is just meant to share my scripts, and not as a mantained ready-to-use config. I hope people can make use of it anyway.
 
 ### Weather
 
-Currently I'm using [climacell.co](https://climacell.co) as an API provider. Be aware that my code uses the API v3, but it has been recently deprecated in favour of v4, and I'm not sure of if and when I will update my code (and this repo). (PR's are always welcome :-) )
+To make this work, you'll have to run `python3 -m venv ~/.conky/climacell/.env` and `pip install` some packages.
+
+Currently I'm using [climacell.co](https://climacell.co) as an API provider. Be aware that my code uses the API v3, but it has been recently deprecated in favour of v4, and I'm not sure of if and when I will update my code (and this repo). (PR's are always welcome :-) ) I included some mock json's which I (very quickly) crafted and used while debugging.
 
 PNG icons are taken from mtking2's accuweather scripts, which in turn, I believe, come from accuweather.
 
@@ -39,4 +41,4 @@ This works nicely because I'm on a desktop PC and it only monitors the ethernet 
 
 ### Wallpaper
 
-The original wallpaper is [here](https://www.xfce-look.org/c/1341338), together with some other variants and colors. This version is a custom one which I adjusted in order to match the [Arc theme](https://github.com/jnsh/arc-theme) color
+The original wallpaper is [here](https://www.xfce-look.org/c/1341338), together with some other variants and colors. This version is a custom one which I adjusted in order to match the [Arc theme](https://github.com/jnsh/arc-theme) color.
