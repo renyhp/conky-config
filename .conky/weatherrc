@@ -1,0 +1,67 @@
+conky.config = {
+-- Use double buffering (reduces flicker, may not work for everyone)
+	double_buffer = true,
+
+-- Create own window instead of using desktop (required in nautilus)
+	own_window = true,
+	own_window_type = 'desktop',
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+    own_window_argb_visual = true,
+    --own_window_argb_value = 255,
+	own_window_transparent = true,
+	draw_blended = false,
+
+-- fiddle with window
+	use_spacer = 'left',
+	use_xft = true,
+
+-- Update interval in seconds
+	update_interval = 3,
+
+-- Minimum size of text area
+	minimum_width = 450, minimum_height = 500,
+	maximum_width = 450,
+
+	override_utf8_locale = true,
+
+-- Draw shades?
+	draw_shades = false,
+
+-- Text stuff
+	draw_outline = false,-- amplifies text if yes
+	draw_borders = false,
+--font freesans -12
+	font = 'Ubuntu Mono:normal:size=10',
+	uppercase = false,-- set to yes if you want all text to be in uppercase
+
+-- Stippled borders?
+	stippled_borders = 2,
+
+-- border margins
+	--border_margin = '9',
+
+-- border width
+    border_width = 6,
+
+    default_color = '#A4BCDC',
+    color1 = '#F1F1F2',
+    color3 = '#7192D3',
+
+
+-- Text alignment, other possible values are commented
+    alignment = 'top_left',
+
+-- Gap between borders of screen and text
+	gap_x = 10,
+	gap_y = 30,
+
+	imlib_cache_size = 0,
+-- stuff after 'TEXT' will be formatted on screen
+    --lua_load = '/home/renyhp/.conky/image.lua',
+};
+
+conky.text = [[
+${font Sans:normal:size=9}${color1}METEO ${hr 2}$color${font}
+${texecpi 600 $HOME/.conky/climacell/.env/bin/python $HOME/.conky/climacell/climacell.py}
+# interval is doubled due to a conky bug
+]];

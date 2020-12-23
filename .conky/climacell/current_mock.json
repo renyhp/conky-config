@@ -1,0 +1,47 @@
+{
+    "observation_time": {
+        "value": "2020-12-20T18:02"
+    },
+    "sunrise": {
+        "value": "2020-12-20T18:02"
+    },
+    "sunset": {
+        "value": "2020-12-20T18:02"
+    },
+    "weather_code": {
+        "value": "clear"
+    },
+    "feels_like": {
+        "value": 2
+    },
+    "wind_speed": {
+        "value": 12
+    },
+    "wind_gust": {
+        "value": 12
+    },
+    "wind_direction": {
+        "value": 12
+    },
+    "cloud_base": {
+        "value": 1200
+    },
+    "temp": {
+        "value": 12
+    },
+    "cloud_cover": {
+        "value": 12
+    },
+    "cloud_ceiling": {
+        "value": 1200
+    },
+    "visibility": {
+        "value": 1200
+    },
+    "baro_pressure": {
+        "value": 1200
+    },
+    "humidity": {
+        "value": 12
+    }
+}
