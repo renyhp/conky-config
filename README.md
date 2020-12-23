@@ -20,14 +20,18 @@ I am running Ubuntu on a desktop PC and this is tailored for my personal use - s
 ### Weather
 
 Currently I'm using [climacell.co](https://climacell.co) as an API provider. Be aware that my code uses the API v3, but it has been recently deprecated in favour of v4, and I'm not sure of if and when I will update my code (and this repo). (PR's are always welcome :-) )
+
 PNG icons are taken from mtking2's accuweather scripts, which in turn, I believe, come from accuweather.
+
 In the hourly forecast, I use [erikflower's weather icons](https://github.com/erikflowers/weather-icons/). You only need to install the ttf, which I symlinked.
 
-Make sure you set your location and API key in [climacell.py](https://github.com/renyhp/conky-config/blob/main/.conky/climacell/climacell.py#L83-L85)
+Make sure you set your location and API key in [climacell.py](https://github.com/renyhp/conky-config/blob/main/.conky/climacell/climacell.py#L83-L85).
 
 ### Clock
 
-The font I'm using is a custom version of [DS-Digital](https://www.dafont.com/ds-digital.font), which I tweaked in order to make the 1's as spaced as the other digits, and to make the colon the way you see in the screenshot. In my understanding, licenses and copyrights don't make me able to share this font. If you don't want to fiddle with the ttf, you can just substitute the font with DS-Digital.
+The font I'm using is a custom version of [DS-Digital](https://www.dafont.com/ds-digital.font), which I tweaked in order to make the 1's as spaced as the other digits, and to make the colon look like the way you see in the screenshot.
+
+In my understanding, licenses and copyrights don't make me able to share this font. If you don't want to fiddle with the ttf, you can just substitute the font with DS-Digital.
 
 ### Network
 
