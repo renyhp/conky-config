@@ -29,6 +29,8 @@ In the hourly forecast, I use [erikflower's weather icons](https://github.com/er
 
 Make sure you set your location and API key in [climacell.py](https://github.com/renyhp/conky-config/blob/main/.conky/climacell/climacell.py#L83-L85).
 
+Obviously, unless you want this widget in italian, you'll have to translate a bit of strings :)
+
 ### Clock
 
 The font I'm using is a custom version of [DS-Digital](https://www.dafont.com/ds-digital.font), which I tweaked in order to make the 1's as spaced as the other digits, and to make the colon look like the way you see in the screenshot.
