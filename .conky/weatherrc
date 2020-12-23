@@ -63,5 +63,5 @@ conky.config = {
 conky.text = [[
 ${font Sans:normal:size=9}${color1}METEO ${hr 2}$color${font}
 ${texecpi 600 $HOME/.conky/climacell/.env/bin/python $HOME/.conky/climacell/climacell.py}
-# interval is doubled due to a conky bug
+# interval is doubled due to a conky bug (#870)
 ]];
