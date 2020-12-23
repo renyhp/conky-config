@@ -43,7 +43,7 @@ This works nicely because I'm on a desktop PC and it only monitors the ethernet 
 
 ### Drives
 
-I have a Raspberry Pi with a Nextcloud instance: as you can see from the screenshot, my actual disks.sh script also includes some lines that fetch the disk usage on the RPi and displays it as an additional disk. I removed these lines because I think they are too specific for my case, but I can share them if anyone asks me.
+I have a Raspberry Pi with a Nextcloud instance: as you can see from the screenshot, my actual disks.sh script also includes some lines that fetch the disk usage on the RPi and displays it as an additional drive. I removed these lines because I think they are too specific for my case, but I can share them if anyone asks me.
 
 ### Wallpaper
 
