@@ -41,7 +41,7 @@ In my understanding, licenses and copyrights don't make me able to share this fo
 
 This works nicely because I'm on a desktop PC and it only monitors the ethernet connection. If you're on a laptop, you may want to tweak it to use the WiFi connection and maybe show different info, e.g. SSID name, WiFi quality, etc. (much like the original mtking2's config; such variables are included in conky, so it is very easy to add them.)
 
-### Disks
+### Drives
 
 I have a Raspberry Pi with a Nextcloud instance: as you can see from the screenshot, my actual disks.sh script also includes some lines that fetch the disk usage on the RPi and displays it as an additional disk. I removed these lines because I think they are too specific for my case, but I can share them if anyone asks me.
 
